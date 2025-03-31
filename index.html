@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Logic Calc</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.jpg" />
+  </head>
+  <body>
+    <!-- <a href="binary.html">Binary</a> -->
+    <video class="video">
+      <source src="RR.mp4" type="video/mp4" />
+    </video>
+    <video class="video">
+      <source src="avril.mp4" type="video/mp4" />
+    </video>
+    <h1 class="title">Logic Calc</h1>
+    <div class="calc-container">
+      <div class="calc">
+        <div style="direction: rtl"><p class="fbf"></p></div>
+        <input
+          type="text"
+          placeholder="Valid Function"
+          spellcheck="false"
+          class="input-text"
+        />
+        <div class="calc-inputs">
+          <button class="input-var">¬</button>
+          <button class="input-var">(</button>
+          <button class="input-var">)</button>
+          <button class="input-var">p</button>
+          <button class="input-var">q</button>
+          <button class="input-var">r</button>
+          <button class="input-var">s</button>
+          <button class="input-var">t</button>
+          <button class="input-var">u</button>
+
+          <button class="input-var">∧</button>
+          <button class="input-var">∨</button>
+          <button class="input-var">→</button>
+          <button class="input-var">↔</button>
+          <button class="input-var">⊕</button>
+          <button class="input-enter">=</button>
+        </div>
+      </div>
+
+      <table class="truth-table"></table>
+    </div>
+    <br />
+
+    <button class="input-generate">Generate Function</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
