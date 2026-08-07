@@ -34,7 +34,8 @@ No necesita dependencias ni instalar paquetes:
 
 1. Clonas el repositorio:
 ```bash
-git clone https://github.com/tu-usuario/nombre-del-repo.git
+
+git clone https://github.com/011synapse/TruthTableCalculator.git
 
 ```
 
